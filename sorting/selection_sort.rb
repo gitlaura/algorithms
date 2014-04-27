@@ -30,5 +30,5 @@ if ARGV[0] == "-b"
   run_benchmark(:selection_sort, doc)
 else
   require_relative "tests"
-  run_tests(:selection_sort)
+  run_tests(:selection_sort, doc)
 end

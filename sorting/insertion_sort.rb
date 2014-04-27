@@ -27,5 +27,5 @@ if ARGV.include?("-b")
   run_benchmark(:insertion_sort, doc)
 else
   require_relative "tests"
-  run_tests(:insertion_sort)
+  run_tests(:insertion_sort, doc)
 end

@@ -1,7 +1,10 @@
 require "minitest/autorun"
 
-def run_tests(alg)
-  describe "#insertion_sort" do
+def run_tests(alg, doc)
+  puts
+  puts doc
+  puts
+  describe "##{alg.to_s}" do
     it "sorts no elements" do
       @c = []
     end
