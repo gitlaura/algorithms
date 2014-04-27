@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 doc = <<-DOC
+Insertion Sort
+==============
 Insertion sort iterates through an array shifting smaller values
 to the left as encountered.  It has approximately n**2/4 compares and
 approximately n**2/4 exchanges.  The worst case is n**2/2 compares and

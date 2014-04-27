@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 doc = <<-DOC
+Selection Sort
+==============
 Selection sort iterates through an array replacing the first value
 with the lowest value from the rest.  It has approximately n**2/2
 compares and n exchanges.  Therefore the sort time is a direct result
