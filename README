@@ -1,0 +1,10 @@
+Ruby implementations of the algorithms found in the book:
+
+Algorithms, Fourth Edition
+Robert Sedgewick, Kevin Wayne
+
+Tests:
+./{algorithm}.rb
+
+Benchmarks:
+./{algorithm}.rb -b
