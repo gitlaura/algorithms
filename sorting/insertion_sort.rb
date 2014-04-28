@@ -6,8 +6,7 @@ Insertion Sort
 Insertion sort iterates through an array shifting smaller values
 to the left as encountered.  It has approximately n**2/4 compares and
 approximately n**2/4 exchanges.  The worst case is n**2/2 compares and
-exchanges, the best case is n - 1 compares and 0 exchanges.  It is useful
-for partially sorted arrays found in practice.
+exchanges, the best case is n - 1 compares and 0 exchanges.
 DOC
 
 def insertion_sort(a)
