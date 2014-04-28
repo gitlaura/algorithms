@@ -28,9 +28,9 @@ def selection_sort(a)
 end
 
 if ARGV[0] == "-b"
-  require_relative "benchmark"
+  require_relative "support/benchmark"
   run_benchmark(:selection_sort, doc)
 else
-  require_relative "tests"
+  require_relative "support/tests"
   run_tests(:selection_sort, doc)
 end

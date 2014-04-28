@@ -25,9 +25,9 @@ def insertion_sort(a)
 end
 
 if ARGV.include?("-b")
-  require_relative "benchmark"
+  require_relative "support/benchmark"
   run_benchmark(:insertion_sort, doc)
 else
-  require_relative "tests"
+  require_relative "support/tests"
   run_tests(:insertion_sort, doc)
 end

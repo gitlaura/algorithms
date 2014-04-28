@@ -36,9 +36,9 @@ def shell_sort(a)
 end
 
 if ARGV.include?("-b")
-  require_relative "benchmark"
+  require_relative "support/benchmark"
   run_benchmark(:shell_sort, doc)
 else
-  require_relative "tests"
+  require_relative "support/tests"
   run_tests(:shell_sort, doc)
 end
